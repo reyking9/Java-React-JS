@@ -1,13 +1,14 @@
-CREATE TABLE "usuarios" (
-"id" int4 NOT NULL DEFAULT nextval('auto_incrementable'::regclass),
-"cedula" varchar(255) COLLATE "default",
-"nombres" varchar(255) COLLATE "default",
-"apellidos" varchar(255) COLLATE "default",
-"email" varchar(255) COLLATE "default",
-"fechanacimiento" varchar(255) COLLATE "default",
-"direcciondomicilio" varchar(255) COLLATE "default",
-"telefonomovil" varchar(255) COLLATE "default",
-"estadovacuna" varchar(255) COLLATE "default",
-"tipovacuna" varchar(255) COLLATE "default",
-"fechavacuna" varchar(255) COLLATE "default",
-"numerodosis" varchar(255) COLLATE "default")
+CREATE DATABASE InventarioVacuncacion;
+CREATE TABLE IF NOT EXISTS usuarios (
+id serial,
+ cedula varchar(255),
+nombres varchar(255),
+apellidos varchar(255),
+email varchar(255),
+fechanacimiento varchar(255),
+direcciondomicilio varchar(255),
+telefonomovil varchar(255),
+estadovacuna varchar(255),
+tipovacuna varchar(255),
+fechavacuna varchar(255),
+numerodosis varchar(255));
