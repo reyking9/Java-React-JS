@@ -29,12 +29,14 @@
 
 # BACK END:
 ## El reto consiste en crear un inventario de vacunación para empleados utilizando JAVA y Spring Boot como BACK-END
-## Reemmplazar datos dependiendo de su base de datos:
+## Reemmplazar datos dependiendo de su base de datos este archivo se encuentra en "Java-spring-BACK-END\src\main\resources" el archivo llamado "application.properties" con sus ## respectivos datos:
 ## spring.datasource.url=jdbc:postgresql://localhost:5432/InventarioVacuncacion
 ## spring.datasource.username=postgres
 ## spring.datasource.password=123
 ## spring.jpa.hibernate.dll-auto=update
 
+## Ruta de ejecucion del archivo:
+# Java-spring-BACK-END\src\main\java\com\vacunacion\inventario el archivo llamado "InventarioVacunacionApplication" es la clase principal
 ## En primer lugar se necesita tener un editor de código, en este caso usaremos Apache NetBeans:
 ### https://netbeans.apache.org
 ## También se necesitará tener instalado java, el jdk:
