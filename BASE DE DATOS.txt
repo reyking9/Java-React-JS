@@ -1,0 +1,13 @@
+CREATE TABLE "usuarios" (
+"id" int4 NOT NULL DEFAULT nextval('auto_incrementable'::regclass),
+"cedula" varchar(255) COLLATE "default",
+"nombres" varchar(255) COLLATE "default",
+"apellidos" varchar(255) COLLATE "default",
+"email" varchar(255) COLLATE "default",
+"fechanacimiento" varchar(255) COLLATE "default",
+"direcciondomicilio" varchar(255) COLLATE "default",
+"telefonomovil" varchar(255) COLLATE "default",
+"estadovacuna" varchar(255) COLLATE "default",
+"tipovacuna" varchar(255) COLLATE "default",
+"fechavacuna" varchar(255) COLLATE "default",
+"numerodosis" varchar(255) COLLATE "default")
