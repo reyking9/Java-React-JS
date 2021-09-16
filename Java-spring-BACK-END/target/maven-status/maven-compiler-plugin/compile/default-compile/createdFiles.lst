@@ -1,0 +1,6 @@
+com\vacunacion\inventario\repository\UsuariosRepository.class
+com\vacunacion\inventario\model\Usuarios.class
+org\springframework\boot\autoconfigure\security\SecurityAutoConfiguration.class
+com\vacunacion\inventario\controller\UsuariosControler.class
+com\vacunacion\inventario\InventarioVacunacionApplication$1.class
+com\vacunacion\inventario\InventarioVacunacionApplication.class

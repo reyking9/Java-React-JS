@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.vacunacion.inventario.InventarioVacunacionApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.002 s <<< FAILURE! - in com.vacunacion.inventario.InventarioVacunacionApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: org.springframework.jdbc.BadSqlGrammarException: 
+StatementCallback; bad SQL grammar [INSERT INTO Usuarios (Cedula, Nombres, Apellidos, Email, FechaNacimiento, DireccionDomicilio, TelefonoMovil, EstadoVacuna, TipoVacuna,FechaVacuna, NumeroDosis ) VALUES ('1350352777', 'Rey', 'Mera', 'rey@hotmail.com', 'qqq', 'asda', 'sda', true, 's', 'sa', 10)]; nested exception is org.postgresql.util.PSQLException: ERROR: no existe la relación «usuarios»
+  Position: 13
+Caused by: org.postgresql.util.PSQLException: 
+ERROR: no existe la relación «usuarios»
+  Position: 13
+
