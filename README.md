@@ -29,6 +29,11 @@
 
 # BACK END:
 ## El reto consiste en crear un inventario de vacunación para empleados utilizando JAVA y Spring Boot como BACK-END
+## Reemmplazar datos dependiendo de su base de datos:
+## spring.datasource.url=jdbc:postgresql://localhost:5432/InventarioVacuncacion
+## spring.datasource.username=postgres
+## spring.datasource.password=123
+## spring.jpa.hibernate.dll-auto=update
 
 ## En primer lugar se necesita tener un editor de código, en este caso usaremos Apache NetBeans:
 ### https://netbeans.apache.org
